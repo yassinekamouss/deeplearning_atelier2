@@ -1,0 +1,6 @@
+Model,Architecture Type,Accuracy (%),F1-Score,Test Loss,Training Time (s),Inference Latency (ms),Parameters
+Custom CNN (Baseline + Reg),Feed-Forward ConvNet,97.9,0.9791,0.0584,68.3,1.15,620234
+Faster R-CNN (MobileNetV3 FPN),Two-Stage Object Detector,3.75,0.0072,3.9327,29.4,27.52,18917458
+AlexNet (Fine-Tuned Pretrained),Transfer Learning CNN,91.0,0.9079,0.2706,108.7,18.69,54575114
+VGG16 (Fine-Tuned Pretrained),Deep Transfer Learning CNN,92.1,0.9194,0.2556,220.8,62.59,119586826
+Vision Transformer (ViT Scratch),Pure Attention / Transformer,80.97,0.8033,0.5738,33.5,1.61,83466
